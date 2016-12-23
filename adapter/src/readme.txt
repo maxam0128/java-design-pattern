@@ -1,0 +1,9 @@
+1、有两种类型的适配器
+    1.1、类适配器
+        一般采用继承实现。Adapter和Adaptee是继承关系。
+    优点:Adapter和重新定义Adaptee的行为
+    缺点:当我们想要匹配一个一个类及其他的所有子类的行为时,Adapter将不在适用
+    1.2、对象适配器
+        一般采用组合实现。Adaptee是Adapter的一个属性。
+    优点:允许一个Adapter和多个Adaptee同时工作,Adapter可以给所有的Adaptee添加功能
+    缺点:想要重新定义Adaptee的行为比较困难
