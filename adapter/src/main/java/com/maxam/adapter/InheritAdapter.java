@@ -13,4 +13,9 @@ public class InheritAdapter extends Adaptee implements ITarget {
         super.specificRequest();
 
     }
+
+    @Override
+    public void handService() {
+
+    }
 }

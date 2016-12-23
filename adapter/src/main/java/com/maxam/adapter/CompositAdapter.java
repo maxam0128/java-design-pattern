@@ -10,6 +10,10 @@ public class CompositAdapter implements ITarget {
         this.adaptee = adaptee;
     }
 
+    @Override
+    public void handService() {
+
+    }
 
     @Override
     public void request() {

@@ -7,4 +7,7 @@ package com.maxam.adapter;
 public interface ITarget {
 
     void request();
+
+
+    void handService();
 }
