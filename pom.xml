@@ -20,6 +20,7 @@
         <module>proxy</module>
         <module>facade</module>
         <module>observer</module>
+        <module>command</module>
     </modules>
 
 
